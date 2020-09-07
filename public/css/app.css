@@ -673,8 +673,13 @@ body {
     font-size: 16px; }
 
 .l-menu {
-  width: 80%;
-  margin: 0 auto; }
+  /* width: 80%; */
+  margin: 0 auto;
+  background-image: url("../img/link_back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 340px; }
   .l-menu > ul {
     display: flex;
     justify-content: space-between;
@@ -697,8 +702,11 @@ body {
   background-size: contain;
   width: 80%;
   padding-top: 10px;
-  margin: 0 auto; }
-
+  margin: 0 auto;
+  max-width: 1080px; }
+.aguri-bito{
+  max-width: 1080px;
+}
 .l-top-img {
   display: flex;
   justify-content: center; }
@@ -871,7 +879,7 @@ textarea::placeholder {
   padding: 8px 0 8px 40px;
   font-weight: 900;
   font-size: 33px;
-  letter-spacing: 10px; }
+  letter-spacing: 20px; }
   .c-title-main__under {
     text-align: center; }
 
