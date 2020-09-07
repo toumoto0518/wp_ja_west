@@ -121,7 +121,17 @@ a {
   background-color: transparent;
   text-decoration: none;
   color: inherit; }
-
+a:link,
+a:visited{
+  text-decoration: #7d7d7d;
+  font-weight: normal;
+  transition: 0.3s;
+}
+a:hover{
+  text-decoration: none;
+  opacity: 0.6;
+  cursor: pointer;
+}
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -475,10 +485,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  max-width: 1080px; }
   .l-article__list {
     width: 30%;
-    margin-top: 40px; }
+    margin-top: 40px;
+    max-width: 300px; }
     .l-article__list img {
       width: 100%; }
     .l-article__list p {
@@ -668,7 +680,9 @@ body {
     justify-content: space-between;
     justify-self: center;
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    max-width: 1080px;
+    margin: 0 auto; }
     .l-menu > ul li{
       margin-bottom: 20px;
     }
