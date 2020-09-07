@@ -445,14 +445,16 @@ margin-top: 160px;
 .l-footer {
   width: 100%; }
   .l-footer .l-top-footer {
-    background-color: #F5F5F5; }
+    background-color: #F5F5F5;
+    min-width: 1080px; }
     .l-footer .l-top-footer .menu {
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
       font-size: 16px;
-      font-weight: 900; }
+      font-weight: 900;
+      }
     .l-footer .l-top-footer .top {
       width: 850px;
       padding: 30px 10px 10px 10px; }
@@ -488,7 +490,8 @@ margin-top: 160px;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 80px;
-  max-width: 1080px; }
+  max-width: 1080px;
+  min-width: 1080px; }
   .l-article__list {
     width: 30%;
     margin-top: 40px;
@@ -668,10 +671,12 @@ margin-top: 160px;
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    height: 50px; }
+    height: 50px;
+    min-width: 1080px; }
   .l-title-top .content {
     letter-spacing: 8px;
-    font-size: 16px; }
+    font-size: 16px;
+    min-width: 1080px; }
 .l-title-archive{
   height: 160px;
   background-image: url("../img/archive-top.png");
@@ -685,15 +690,17 @@ margin-top: 160px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  height: 340px; }
+  height: 340px;
+  min-width: 1080px; }
   .l-menu > ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-self: center;
     align-items: center;
     text-align: center;
     max-width: 1080px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    flex-wrap: wrap; }
     .l-menu > ul li{
       margin-bottom: 20px;
     }
@@ -709,13 +716,15 @@ margin-top: 160px;
   width: 80%;
   padding-top: 10px;
   margin: 0 auto;
-  max-width: 1080px; }
+  max-width: 1080px;
+  min-width: 1080px; }
 .aguri-bito{
   max-width: 1080px;
 }
 .l-top-img {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  min-width: 1080px; }
 
 .l-original {
   max-width: 1080px;
@@ -1091,6 +1100,10 @@ textarea::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center; }
+  .l-original-main__rigth .l-title-top .title{
+    font-size: 18px;
+    height: 30px;
+  }
 
 /**
  * Margin Utility
@@ -1370,4 +1383,97 @@ body h1 {
   display: none; }
 
 body .main {
-  background-image: url("../img/main-back.png"); }
+  background-image: url("../img/main-back.png");
+  min-width: 1200px; }
+
+/* レスポンシブ
+=========================================================*/
+/* tablet
+=========================================================*/
+@media screen and (min-width:481px) and (max-width:768px){
+	.header{
+    min-width: inherit;
+		min-width: 675px;
+		height: 100px;
+		width: 100%;
+  }
+  .l-header{
+    width: 100%;
+  }
+  .c-img-slick{
+    width: 80%;
+  }
+  .c-title-main{
+    font-size: 26px;
+  }
+  .l-header .menu{
+    justify-content: space-around;
+  }
+  body .main{
+    width: 100%;
+    min-width: inherit;
+  }
+  .l-title-top .title{
+    min-width: inherit;
+  }
+	.l-menu{
+    min-width: inherit;
+  }
+  .l-article{
+    max-width: inherit;
+    min-width: inherit;
+  }
+  .l-article__list{
+    width: 50%;
+  }
+  .c-tag{
+    width: 100%;
+  }
+  .l-tag{
+    max-width: inherit;
+    min-width: inherit;
+  }
+  .l-title-top .content{
+    min-width: inherit;
+  }
+  .l-top-img{
+    min-width: inherit;
+  }
+  .l-footer .l-top-footer{
+    min-width: inherit;
+  }
+  .l-footer .l-top-footer .top{
+    width: 100%;
+  }
+
+
+
+  .l-original{
+    padding-left: 10px;
+  }
+  .l-original-main__left{
+    padding-left: 10px;
+  }
+  .l-original-main__rigth{
+    margin-right: 10px;
+    /* width: 30%; */
+  }
+  .c-title-menu img{
+    width: 100%;
+  }
+
+  .l-article-column3__list__tag{
+    display: block;
+  }
+  .l-template-title{
+    padding-left: inherit;
+  }
+  .l-article-column3__list__title{
+    font-size: 18px;
+  }
+}
+/* smartphone
+=========================================================*/
+@media screen and (max-width:480px){
+
+}
