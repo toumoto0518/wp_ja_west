@@ -1508,6 +1508,18 @@ body .main {
   .l-header-icon{
     padding-top: 0;
   }
+  .l-header-icon__start{
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+  .search_container{
+    padding-top: 0;
+  }
+  .menu li:nth-child(3){
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
   .c-img-slick{
     width: 80%;
   }
