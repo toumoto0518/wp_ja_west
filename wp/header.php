@@ -7,7 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="JA兵庫西">
     <meta name="description" content="JA兵庫西の広報誌にっしぃ広場のWEBサイトです">
-    <title>にっしぃ広場WEB</title>
+    <title>
+      <?php
+      if ( !is_home() ){
+        wp_title('|', true, 'right');
+      }
+      bloginfo('name'); ?>
+    </title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="icon" href="img/icon.png" sizes="16x16" type="image/png">
   </head>
