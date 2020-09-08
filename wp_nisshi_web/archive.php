@@ -13,12 +13,12 @@
         <div class="l-article-column2">
           <?php get_template_part('loop', 'main'); ?>
         </div>
+        <!--ページナビ-->
+        <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
         <!-- 終了-->
-
-        <div class="c-pager"><a class="c-pager__select" href="">1</a><a class="c-pager__not-select" href="">2</a><a class="c-pager__not-select" href="">3</a><a class="c-pager__not-select" href="">4</a><a class="c-pager__not-select" href="">5</a>
-          <p class="c-pager__santen">…</p><a class="c-pager__not-select" href="">10</a>
-        </div>
       </div>
+
+      
       <div class="l-original-main__rigth">
         <!-- メニュー表示-->
         <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/img/right_memu.png" alt=""></div>

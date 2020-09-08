@@ -7,7 +7,7 @@ while ( have_posts() ) : the_post();
             <?php the_post_thumbnail('thumbnail'); ?>
             <h4 class="l-article__list__title u-mgn--t8px"><?php the_title(); ?></h4>
             <div class="l-article__list__tag red u-mgn--t8px">
-            <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+            <time datetime="<?php the_time('Y-m-d'); ?>" class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_time('Y.m.d'); ?></time>
             <span><?php the_category(); ?></span>
             </div>
             <p class="u-mgn--t8px"><?php the_excerpt(); ?></p>
