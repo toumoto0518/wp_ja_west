@@ -10,7 +10,7 @@
             <li>|</li>
             <li>反社会勢力に対する基本方針</li>
           </ul>
-          <div class="logo-footer"><img src="<?php echo get_template_directory_uri(); ?>/logo.png"></div>
+          <div class="logo-footer"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
           <ul class="menu under">
             <li>〒670-0940 姫路市三左衛門堀西の町216</li>
             <li>|</li>

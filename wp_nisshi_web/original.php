@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-  <div class="c-title-main__under"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/main2.png" alt=""></div>
+  <div class="c-title-main__under"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/img/main2.png" alt=""></div>
     <!-- パンくず -->
     <div class="u-mgn--72px">
 
     </div>
-    <div class="l-original"><img src="<?php echo get_template_directory_uri(); ?>/pan-sns.png"></div>
+    <div class="l-original"><img src="<?php echo get_template_directory_uri(); ?>/img/pan-sns.png"></div>
     <div class="l-original-main">
       <div class="l-original-main__left">
         <div class="l-original-main__left__tag">
@@ -14,12 +14,12 @@
         </div>
         <h3 class="c-title-original">世界の料理　ミニ博覧会</h3>
         <div class="c-original-tag"><span class="content">オニオン</span><span class="content">卵</span></div>
-        <div class="l-original-top"><img src="<?php echo get_template_directory_uri(); ?>/main3.png" alt=""></div>
+        <div class="l-original-top"><img src="<?php echo get_template_directory_uri(); ?>/img/main3.png" alt=""></div>
         <div class="l-original-top-2 u-mgn--t32px"><span>心浮き立つ春。JA兵庫西の直売所「旬彩蔵」や「野菜市」にもラインナップ豊富な野菜が並びます。いつもとは趣向を変えて、味覚いろいろ、世界の味に挑戦してみませんか？</span></div>
-        <div class="w100 u-mgn--t24px"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/main-content.png" alt=""></div>
+        <div class="w100 u-mgn--t24px"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/img/main-content.png" alt=""></div>
         <div class="u-mgn--t32px">
           <div class="l-profile">
-            <div class="l-profile__left"><img src="<?php echo get_template_directory_uri(); ?>/woman.png" alt=""></div>
+            <div class="l-profile__left"><img src="<?php echo get_template_directory_uri(); ?>/img/woman.png" alt=""></div>
             <div class="l-profile__centor">
               <div class="l-profile__centor__top"><span class="c-tag-black">監修</span></div>
               <p class="u-font-size--8">MIKI TERUYAMA</p>
@@ -30,11 +30,11 @@
             </div>
           </div>
         </div>
-        <div class="u-mgn--t32px"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/original-under.png" alt=""></div>
+        <div class="u-mgn--t32px"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/img/original-under.png" alt=""></div>
       </div>
       <div class="l-original-main__rigth">
         <!-- メニュー表示-->
-        <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/right_memu.png" alt=""></div>
+        <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/img/right_memu.png" alt=""></div>
         <div class="l-title-top">
           <h3 class="title">カテゴリー</h3>
         </div>
@@ -61,31 +61,31 @@
         <div class="l-title-top">
           <h3 class="title">人気の記事</h3>
         </div><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
