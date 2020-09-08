@@ -16,6 +16,10 @@
     </title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="icon" href="img/icon.png" sizes="16x16" type="image/png">
+    
+    <?php
+    wp_head();
+    ?>
   </head>
   <body>
     <div class="main">
