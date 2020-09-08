@@ -454,6 +454,9 @@ margin-top: 160px;
       font-size: 16px;
       font-weight: 900;
       }
+      .l-footer .l-top-footer .menu a{
+        font-weight: bold;
+      }
     .l-footer .l-top-footer .top {
       width: 850px;
       padding: 30px 10px 10px 10px; }
@@ -757,9 +760,6 @@ margin-top: 160px;
     background: #F5F5F5;
     width: 25%; }
 
-.l-original-top {
-  
-}
   .l-original-top img {
     width: 100%; }
 

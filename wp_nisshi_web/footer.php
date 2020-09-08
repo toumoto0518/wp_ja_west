@@ -2,13 +2,13 @@
       <div class="l-footer">
         <div class="l-top-footer">
           <ul class="menu top">
-            <li>個人情報保護法</li>
+            <li><a href="http://www.ja-hyogonishi.com/policy/index.html">個人情報保護法</a></li>
             <li>|</li>
-            <li>個人情報の取り扱いについて</li>
+            <li><a href="http://www.ja-hyogonishi.com/about/index.html">ホームページのご利用について</a></li>
             <li>|</li>
-            <li>プライバシーポリシー</li>
+            <li><a href="http://www.ja-hyogonishi.com/plan/index.html">各種方針</a></li>
             <li>|</li>
-            <li>反社会勢力に対する基本方針</li>
+            <li><a href="https://www.ja-hyogonishi.com/toi/index.html">お問い合わせ</a></li>
           </ul>
           <div class="logo-footer"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
           <ul class="menu under">
