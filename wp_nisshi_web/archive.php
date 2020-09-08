@@ -10,22 +10,11 @@
     <div class="l-original-main">
       <div class="l-original-main__left">
         <!-- ループ構文-->
-        <!-- ワードプレス記述 -->
-        <div id="newsWrap">
-          <div class="newsCon">
-
-            <!-- ループ部分 -->
-            <?php get_template_part('loop', 'main'); ?>
-
-            <!--ページナビ-->
-            <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
-
-          </div>
-        </div><!-- newsWrap -->
-
-
-        <!-- 終了-->
+        <div class="l-article-column2">
+          <?php get_template_part('loop', 'main'); ?>
         </div>
+        <!-- 終了-->
+
         <div class="c-pager"><a class="c-pager__select" href="">1</a><a class="c-pager__not-select" href="">2</a><a class="c-pager__not-select" href="">3</a><a class="c-pager__not-select" href="">4</a><a class="c-pager__not-select" href="">5</a>
           <p class="c-pager__santen">…</p><a class="c-pager__not-select" href="">10</a>
         </div>

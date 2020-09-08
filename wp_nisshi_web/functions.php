@@ -117,7 +117,7 @@ function five_posts( $query ) {
     // 指定したページとメインクエリの場合に限定
     if ( $query->is_home() && $query->is_main_query() ) {
         $query->set( 'post_type', 'post' );
-        $query->set( 'posts_per_page', '3' );
+        $query->set( 'posts_per_page', '6' );
     }
 }
 
