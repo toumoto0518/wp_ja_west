@@ -37,7 +37,7 @@
                 <input type="text" placeholder="検索はこちら">
                 <input type="submit" value="">
               </div>
-              <div class="l-header-icon"><a href=""><i class="fab fa-instagram-square fa-2x l-header-icon__start"></i></a><a href=""><i class="fab fa-facebook-square fa-2x"></i></a></div>
+              <div class="l-header-icon"><a href="https://www.instagram.com/ja_hyogo/"><i class="fab fa-instagram-square fa-2x l-header-icon__start"></i></a><a href="https://www.facebook.com/pages/JA%E5%85%B5%E5%BA%AB%E8%A5%BF/112179886000623"><i class="fab fa-facebook-square fa-2x"></i></a></div>
             </li>
           </ul>
         </div>

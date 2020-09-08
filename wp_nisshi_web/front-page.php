@@ -31,12 +31,23 @@
     <!-- 終了-->
 
     <div class="l-tag u-mgn--t32px">
-      <div class="l-title-top">
-        <h3 class="title">タグ</h3>
-        <p class="content">便利なタグ機能で、記事を検索！</p>
-      </div>
-      <div class="c-tag"><span>農業</span><span>家庭菜園</span><span>wwwwwwwwwwwwwwwwwwww</span></div>
+        <div class="l-title-top">
+            <h3 class="title">タグ</h3>
+            <p class="content">便利なタグ機能で、記事を検索！</p>
+        </div>
+        <div class="c-tag">
+            <span>農業</span><span>家庭菜園</span><span>wwwwwwwwwwwwwwwwwwww</span>
+        </div>
     </div>
+
+    <?php $posttags = get_the_tags();
+if ($posttags) {
+foreach($posttags as $tag) {
+echo $tag->name . ' ';
+}
+}
+?>
+
     <div class="l-top-img u-mgn--t64px" stlye="display:flex;justfy"><img class="w80 aguri-bito" src="<?php echo get_template_directory_uri(); ?>/img/men.png"></div>
     <div class="l-title-top u-mgn--t64px">
       <h3 class="title">人気の記事</h3>
