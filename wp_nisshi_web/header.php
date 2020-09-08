@@ -14,8 +14,8 @@
       }
       bloginfo('name'); ?>
     </title>
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="icon" href="img/icon.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/app.css">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/icon.png" sizes="16x16" type="image/png">
     
     <?php
     wp_head();
