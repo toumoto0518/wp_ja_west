@@ -1553,7 +1553,10 @@ body .main {
     padding: 0 20px;
   }
   .l-article__list{
-    width: 50%;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+    max-width: inherit;
   }
   .c-tag{
     width: 100%;
@@ -1639,7 +1642,9 @@ body .main {
 
 
   .l-article-column2__list{
-    width: 48%;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
   }
   .c-pager{
     width: 100%;
@@ -1655,5 +1660,10 @@ body .main {
   }
   .l-template-title{
     padding: 0;
+  }
+  .l-article-column3__list{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
