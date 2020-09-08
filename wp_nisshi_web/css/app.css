@@ -436,8 +436,7 @@ body {
   font-size: 1.4rem;
   /* 14px */
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  font-feature-settings: "palt";
+  font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;  font-feature-settings: "palt";
   color: #222222; }
 .footer{
 margin-top: 160px;
@@ -523,27 +522,32 @@ margin-top: 160px;
       color: #009650; }
     .l-article__list .greern span {
       color: #ffffff;
-      background-color: #009650; }
+      background-color: #009650;
+      line-height: 24px; }
     .l-article__list .blue p {
       color: #0071BC; }
     .l-article__list .blue span {
       color: #ffffff;
-      background-color: #0071BC; }
+      background-color: #0071BC;
+      line-height: 24px; }
     .l-article__list .purple p {
       color: #A379CA; }
     .l-article__list .purple span {
       color: #ffffff;
-      background-color: #A379CA; }
+      background-color: #A379CA;
+      line-height: 24px; }
     .l-article__list .pink p {
       color: #FF8C91; }
     .l-article__list .pink span {
       color: #ffffff;
-      background-color: #FF8C91; }
+      background-color: #FF8C91;
+      line-height: 24px; }
     .l-article__list .yellow p {
       color: #FFA032; }
     .l-article__list .yellow span {
       color: #ffffff;
-      background-color: #FFA032; }
+      background-color: #FFA032;
+      line-height: 24px; }
 
 .l-article-column2 {
   margin: 0 auto;
