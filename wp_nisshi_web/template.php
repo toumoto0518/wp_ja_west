@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <div class="l-original"><img src="img/pan-sns.png"></div>
+  <div class="l-original"><img src="<?php echo get_template_directory_uri(); ?>/pan-sns.png"></div>
     <div class="l-original-main">
       <div class="l-original-main__left">
         <div class="l-original-main__left__tag">
@@ -9,7 +9,7 @@
         </div>
         <h3 class="c-title-original">世界の料理　ミニ博覧会</h3>
         <div class="c-original-tag"><span class="content">オニオン</span><span class="content">卵</span></div>
-        <div class="l-original-top"><img class="w100" src="img/recipe01.png" alt=""></div>
+        <div class="l-original-top"><img class="w100" src="<?php echo get_template_directory_uri(); ?>/recipe01.png" alt=""></div>
         <h2 class="c-title-report u-mgn--t64px">トロトロオニオンエッグスープ</h2>
         <div class="l-template-content u-mgn--t16px">
           <p>新タマネギの甘みと水分を生かした旨味たっぷりスープ</p>
@@ -49,7 +49,7 @@
         </div>
         <div class="u-mgn--t64px">
           <div class="l-profile">
-            <div class="l-profile__left"><img src="img/woman.png" alt=""></div>
+            <div class="l-profile__left"><img src="<?php echo get_template_directory_uri(); ?>/woman.png" alt=""></div>
             <div class="l-profile__centor">
               <div class="l-profile__centor__top"><span class="c-tag-black">監修</span></div>
               <p class="u-font-size--8">MIKI TERUYAMA</p>
@@ -82,7 +82,7 @@
       </div>
       <div class="l-original-main__rigth">
         <!-- メニュー表示-->
-        <div class="c-title-menu"><img src="img/right_memu.png" alt=""></div>
+        <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/right_memu.png" alt=""></div>
         <div class="l-title-top">
           <h3 class="title">カテゴリー</h3>
         </div>
@@ -109,31 +109,31 @@
         <div class="l-title-top">
           <h3 class="title">人気の記事</h3>
         </div><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="img/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="img/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="img/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="img/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a><a class="c-menu-article" href="template.html">
-          <div class="c-menu-article__left"><img src="img/menu-right-under.png" alt=""></div>
+          <div class="c-menu-article__left"><img src="<?php echo get_template_directory_uri(); ?>/menu-right-under.png" alt=""></div>
           <div class="c-menu-article__right">
             <p>2020.08.09</p>
             <div class="c-menu-article__right__tag">レシピ</div>

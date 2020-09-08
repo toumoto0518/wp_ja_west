@@ -28,7 +28,7 @@
       <header>
         <div class="l-header">
           <ul class="menu">
-            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/logo.png"></a></li>
             <li>
               <h2 class="c-title-main">にっしぃひろば</h2>
             </li>
