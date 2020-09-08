@@ -1515,7 +1515,7 @@ body .main {
   .search_container{
     padding-top: 0;
   }
-  .menu li:nth-child(3){
+  .l-header .menu li:nth-child(3){
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -1581,11 +1581,20 @@ body .main {
   .l-footer .l-top-footer .top{
     width: 100%;
     display: block;
+    text-align: center;
   }
   .l-footer .l-top-footer .under{
     width: 100%;
     display: block;
+    text-align: center;
   }
+  .l-top-footer .menu li:nth-child(2n){
+    display: none;
+  }
+
+
+
+
   .aguri-bito{
     width: 100%;
   }
