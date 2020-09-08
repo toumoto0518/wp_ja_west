@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="l-title-top l-title-archive u-mgn--t64px">
-      <h3 class="title">人気の記事</h3>
+      <h3 class="title"><?php $category = get_the_category(); $cat_name = $category[0]->cat_name; echo $cat_name; ?></h3>
     </div>
     <!-- パンくず -->
     <div class="u-mgn--72px">
@@ -10,68 +10,21 @@
     <div class="l-original-main">
       <div class="l-original-main__left">
         <!-- ループ構文-->
-        <div class="l-article-column2"><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag red">
-              <p>2020.4.13</p><span>特集</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag greern">
-              <p>2020.4.13</p><span>トピックス</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag blue">
-              <p>2020.4.13</p><span>営業情報</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag purple">
-              <p>2020.4.13</p><span>健康豆知識</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag pink">
-              <p>2020.4.13</p><span>家庭菜園</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag yellow">
-              <p>2020.4.13</p><span>レシピ</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag pink">
-              <p>2020.4.13</p><span>家庭菜園</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag yellow">
-              <p>2020.4.13</p><span>レシピ</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag pink">
-              <p>2020.4.13</p><span>家庭菜園</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag yellow">
-              <p>2020.4.13</p><span>レシピ</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag pink">
-              <p>2020.4.13</p><span>家庭菜園</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a><a class="l-article-column2__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-            <h4 class="l-article-column2__list__title">世界の料理ミニ博覧会</h4>
-            <div class="l-article-column2__list__tag yellow">
-              <p>2020.4.13</p><span>レシピ</span>
-            </div>
-            <p>ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。ダミーです。</p></a>
-          <!-- 終了-->
+        <!-- ワードプレス記述 -->
+        <div id="newsWrap">
+          <div class="newsCon">
+
+            <!-- ループ部分 -->
+            <?php get_template_part('loop', 'main'); ?>
+
+            <!--ページナビ-->
+            <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+
+          </div>
+        </div><!-- newsWrap -->
+
+
+        <!-- 終了-->
         </div>
         <div class="c-pager"><a class="c-pager__select" href="">1</a><a class="c-pager__not-select" href="">2</a><a class="c-pager__not-select" href="">3</a><a class="c-pager__not-select" href="">4</a><a class="c-pager__not-select" href="">5</a>
           <p class="c-pager__santen">…</p><a class="c-pager__not-select" href="">10</a>
