@@ -915,9 +915,9 @@ textarea::placeholder {
  }
   .c-tag li a {
     border: 1px solid;
-    padding: 4px;
+    padding: 5px 8px;
     background-color: #ffffff;
-    border-radius: 1em;
+    border-radius: 6px;
     margin-right: 4px;
    }
 
@@ -925,12 +925,37 @@ textarea::placeholder {
   color: #D50000;
   font-family: 'DIN Alternate'; }
 
-.c-tag-main {
-  background-color: #D50000;
-  width: 80px;
-  text-align: center;
-  color: #ffffff;
-  margin-left: 20px; }
+
+  .l-original-main__left__tag .ptopics{
+    margin-left: 20px;
+  }
+  .l-original-main__left__tag .farming{
+    margin-left: 20px;
+  }
+  .l-original-main__left__tag .health{
+    margin-left: 20px;
+  }
+  .l-original-main__left__tag .garden{
+    margin-left: 20px;
+  }
+  .l-original-main__left__tag .recipe{
+    margin-left: 20px;
+  }
+  .l-original-main__left__tag .trouble{
+    margin-left: 20px;
+  }
+  .l-original-main__left__tag .initiative{
+    margin-left: 20px;
+  }
+  
+  .l-original-main__left__tag time{
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+
+
+
 
 .c-original-tag {
   margin-top: 8px;

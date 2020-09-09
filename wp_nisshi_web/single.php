@@ -18,7 +18,7 @@
 
         <div class="l-original-main__left__tag">
           <time datetime="<?php the_time('Y-m-d'); ?>" class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_time('Y年m日d日'); ?></time>
-          <div class="c-tag-main" class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_category(); ?></div>
+          <div class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_category(); ?></div>
         </div>
         <h3 class="c-title-original"><?php the_title(); ?></h3>
         <div class="c-original-tag"><?php the_tags(''); ?></div>
