@@ -530,54 +530,68 @@ margin-top: 160px;
 
 
 
-      time.ptopics {
-      color: #009650; }
-    .l-article__list .greern span {
-      color: #ffffff;
-      background-color: #009650;
-      line-height: 24px; }
+    time.ptopics {
+    color: #009650; }
+    .ptopics .post-categories li a{
+    color: #ffffff;
+    background-color: #009650;
+    line-height: 24px;
+    display: block;
+    padding: 0 10px; }
 
     time.farming {
-      color: #0071BC; }
-    .l-article__list .blue span {
-      color: #ffffff;
-      background-color: #0071BC;
-      line-height: 24px; }
+    color: #0071BC; }
+    .farming .post-categories li a {
+    color: #ffffff;
+    background-color: #0071BC;
+    line-height: 24px;
+    display: block;
+    padding: 0 10px; }
 
     time.health {
-      color: #A379CA; }
-    .l-article__list .purple span {
-      color: #ffffff;
-      background-color: #A379CA;
-      line-height: 24px; }
+    color: #A379CA; }
+    .health .post-categories li a {
+    color: #ffffff;
+    background-color: #A379CA;
+    line-height: 24px;
+    display: block;
+    padding: 0 10px; }
 
     time.garden {
-      color: #FF8C91; }
-    .l-article__list .pink span {
-      color: #ffffff;
-      background-color: #FF8C91;
-      line-height: 24px; }
+    color: #FF8C91; }
+    .garden .post-categories li a {
+    color: #ffffff;
+    background-color: #FF8C91;
+    line-height: 24px;
+    display: block;
+    padding: 0 10px; }
 
       time.recipe {
         color: #FFA032; }
-      .l-article__list .yellow span {
-        color: #ffffff;
-        background-color: #FFA032;
-        line-height: 24px; }
+      .recipe .post-categories li a {
+      color: #ffffff;
+      background-color: #FFA032;
+      line-height: 24px;
+      display: block;
+      padding: 0 10px; }
 
       time.trouble {
         color: #a1cb3f; }
-      .l-article__list .yellow span {
-        color: #ffffff;
-        background-color: #a1cb3f;
-        line-height: 24px; }
+      .trouble .post-categories li a {
+      color: #ffffff;
+      background-color: #a1cb3f;
+      line-height: 24px;
+      display: block;
+      padding: 0 10px; }
 
       time.initiative {
       color: #53bce2; }
-    .l-article__list .yellow span {
+      .initiative .post-categories li a {
       color: #ffffff;
       background-color: #53bce2;
-      line-height: 24px; }
+      line-height: 24px;
+      display: block;
+      padding: 0 10px; }
       
 
 
