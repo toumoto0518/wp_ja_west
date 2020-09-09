@@ -603,7 +603,8 @@ margin-top: 160px;
   justify-content: space-around; }
   .l-article-column2__list {
     width: 40%;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+   }
     .l-article-column2__list img {
       width: 100%; }
     .l-article-column2__list p {
