@@ -799,7 +799,9 @@ margin-top: 160px;
       display: flex;
       margin-bottom: 10px; }
     .l-original-main__left__tag :last-child {
-      margin-left: 20px; }
+      /* margin-left: 20px; */
+      display: block;
+     }
   .l-original-main__rigth {
     padding: 16px;
     background: #F5F5F5;
@@ -927,7 +929,8 @@ textarea::placeholder {
   background-color: #D50000;
   width: 80px;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-left: 20px; }
 
 .c-original-tag {
   margin-top: 8px;
@@ -973,7 +976,8 @@ textarea::placeholder {
   margin: 0 auto; }
 
 .c-title-original {
-  font-size: 34px; }
+  font-size: 32px;
+  font-weight: bold; }
 
 .c-title-report {
   font-size: 28px;

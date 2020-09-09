@@ -1,15 +1,11 @@
 <?php get_header(); ?>
 
-  <div class="l-original"><img src="<?php echo get_template_directory_uri(); ?>/img/pan-sns.png"></div>
+  <div class="l-original">
+
+  </div>
     <div class="l-original-main">
 
-
-
       <div class="l-original-main__left">
-
-
-
-
 
       <?php
       if( have_posts() ) :
@@ -21,8 +17,8 @@
 
 
         <div class="l-original-main__left__tag">
-          <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m日d日'); ?></time>
-          <p class="c-tag-main"><?php the_category(); ?></p>
+          <time datetime="<?php the_time('Y-m-d'); ?>" class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_time('Y年m日d日'); ?></time>
+          <div class="c-tag-main" class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_category(); ?></div>
         </div>
         <h3 class="c-title-original"><?php the_title(); ?></h3>
         <div class="c-original-tag"><?php the_tags(''); ?></div>
