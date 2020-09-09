@@ -16,8 +16,6 @@
         while ( have_posts() ) : the_post();
       ?>
 
-
-
       <!-- <div id="newsWrap"> -->
       <div id="<?php the_ID(); ?>" <?php post_class('newsTextWrap')?>>
 
@@ -27,7 +25,7 @@
           <p class="c-tag-main"><?php the_category(); ?></p>
         </div>
         <h3 class="c-title-original"><?php the_title(); ?></h3>
-        <div class="c-original-tag"><span class="content">オニオン</span><span class="content">卵</span></div>
+        <div class="c-original-tag"><?php the_tags(''); ?></div>
         <?php the_content(); ?>
 
 

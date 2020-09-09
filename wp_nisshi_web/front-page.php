@@ -36,17 +36,18 @@
             <p class="content">便利なタグ機能で、記事を検索！</p>
         </div>
         <div class="c-tag">
-            <span>農業</span><span>家庭菜園</span><span>wwwwwwwwwwwwwwwwwwww</span>
+            <?php
+                $tags = get_tags();
+                foreach( $tags as $tag) { 
+                echo '<li><a href="'. get_tag_link($tag->term_id) .'">' . $tag->name . '</a></li>';
+                }
+            ?>
         </div>
     </div>
-
-    <?php $posttags = get_the_tags();
-if ($posttags) {
-foreach($posttags as $tag) {
-echo $tag->name . ' ';
-}
-}
-?>
+    <!-- タグの出力 -->
+    <div>
+        
+    </div>
 
     <div class="l-top-img u-mgn--t64px" stlye="display:flex;justfy"><img class="w80 aguri-bito" src="<?php echo get_template_directory_uri(); ?>/img/men.png"></div>
     <div class="l-title-top u-mgn--t64px">

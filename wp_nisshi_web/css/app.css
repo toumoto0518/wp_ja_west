@@ -905,13 +905,19 @@ textarea::placeholder {
 .c-tag {
   width: 1000px;
   margin: 0 auto;
-  text-align: left; }
-  .c-tag > span {
+  text-align: left;
+  list-style: none;
+ }
+ .c-tag li {
+  display: inline-block;
+ }
+  .c-tag li a {
     border: 1px solid;
     padding: 4px;
     background-color: #ffffff;
     border-radius: 1em;
-    margin-right: 4px; }
+    margin-right: 4px;
+   }
 
 .c-date {
   color: #D50000;
@@ -926,7 +932,7 @@ textarea::placeholder {
 .c-original-tag {
   margin-top: 8px;
   margin-bottom: 16px; }
-  .c-original-tag span {
+  .c-original-tag a {
     border: 1px solid #CBCBCB;
     border-radius: 5px 5px 5px 5px;
     padding: 5px;
