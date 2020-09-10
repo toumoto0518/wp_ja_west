@@ -600,10 +600,12 @@ margin-top: 160px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: end;
+ }
   .l-article-column2__list {
     width: 40%;
     margin-bottom: 40px;
+    margin-left: 50px;
    }
     .l-article-column2__list img {
       width: 100%; }
@@ -1447,7 +1449,8 @@ textarea::placeholder {
   float: right; }
 
 .slick-slide img {
-  display: block; }
+  display: block;
+  width: 75%;}
 
 .slick-slide.slick-loading img {
   display: none; }
@@ -1474,7 +1477,49 @@ body h1 {
 
 body .main {
   background-image: url("../img/main-back.png");
+  background-size: cover;
   min-width: 1200px; }
+
+  .single-style h3{
+    background: #EAEAEA;
+    font-size: 24px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 2px;
+  }
+  .single-style h4{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin: 20px 0 30px;
+  }
+  .single-style h5{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 16px;
+  }
+  .single-style img{
+    display: block;
+    margin-bottom: 40px;
+  }
+  .single-style ul{
+    list-style: circle;
+    padding-left: 30px;
+  }
+  .single-style ol{
+    list-style-type: decimal-leading-zero;
+    padding-left: 30px;
+  }
+  .single-style ul li, .single-style ol li{
+    margin-bottom: 10px;
+  }
+  
+
+
 
 /* レスポンシブ
 =========================================================*/

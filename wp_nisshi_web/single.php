@@ -44,7 +44,9 @@
         </div>
         <h3 class="c-title-original"><?php the_title(); ?></h3>
         <div class="c-original-tag"><?php the_tags(''); ?></div>
-        <?php the_content(); ?>
+        <div class="single-style">
+          <?php the_content(); ?>
+        </div>
 
 
 
