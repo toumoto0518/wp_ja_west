@@ -1473,7 +1473,7 @@ body h1 {
   display: none; }
 
 body .main {
-  /* background-image: url("../img/main-back.png"); */
+  background-image: url("../img/main-back.png");
   min-width: 1200px; }
 
 /* レスポンシブ
