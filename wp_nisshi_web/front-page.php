@@ -78,8 +78,9 @@
     </div>
     <!-- 人気の記事ループ構文-->
     <div class="l-article">
-        <?php get_template_part('loop', 'top'); ?>
+        <?php get_template_part('loop', 'popular'); ?>
     </div>
     <!-- 終了-->
+
 
 <?php get_footer(); ?>
