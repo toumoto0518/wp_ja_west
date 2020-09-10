@@ -22,13 +22,10 @@
       </header>
 
 
-  <div class="l-title-top l-title-archive u-mgn--t64px">
+    <div class="l-title-top l-title-archive u-mgn--t64px">
       <h3 class="title"><?php $category = get_the_category(); $cat_name = $category[0]->cat_name; echo $cat_name; ?></h3>
     </div>
-    <!-- パンくず -->
-    <div class="u-mgn--72px">
-
-    </div>
+    
     <div class="l-original-main">
       <div class="l-original-main__left">
         <!-- ループ構文-->
@@ -43,7 +40,7 @@
 
       <div class="l-original-main__rigth">
         <!-- メニュー表示-->
-        <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/img/right_memu.png" alt=""></div>
+        <!-- <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/img/right_memu.png" alt=""></div>
         <div class="l-title-top">
           <h3 class="title">カテゴリー</h3>
         </div>
@@ -100,9 +97,17 @@
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a>
-        <div class="c-menu-category-link"><a href="archive.html">
-            <p>人気記事の一覧</p></a></div>
+          <div class="c-menu-category-link"><a href="archive.html">
+            <p>人気記事の一覧</p></a>
+          </div> -->
+
+
+          <?php dynamic_sidebar( 'sidebar' ); ?>
+
       </div>
+
+
+
     </div>
     <script src="js/app.js"></script>
     <!-- 終了-->

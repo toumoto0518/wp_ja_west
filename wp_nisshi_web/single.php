@@ -92,9 +92,10 @@
           </div>
         </div>
       </div>
+      
       <div class="l-original-main__rigth">
         <!-- メニュー表示-->
-        <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/img/right_memu.png" alt=""></div>
+        <!-- <div class="c-title-menu"><img src="<?php echo get_template_directory_uri(); ?>/img/right_memu.png" alt=""></div>
         <div class="l-title-top">
           <h3 class="title">カテゴリー</h3>
         </div>
@@ -151,9 +152,15 @@
             <div class="c-menu-article__right__tag">レシピ</div>
             <p>トロトロオニオンエッグスープ</p>
           </div></a>
-        <div class="c-menu-category-link"><a href="archive.html">
-            <p>人気記事の一覧</p></a></div>
+          <div class="c-menu-category-link"><a href="archive.html">
+            <p>人気記事の一覧</p></a>
+          </div> -->
+
+
+          <?php dynamic_sidebar( 'sidebar' ); ?>
+
       </div>
+
     </div>
     <!-- 終了-->
 
