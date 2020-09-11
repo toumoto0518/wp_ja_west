@@ -1543,6 +1543,8 @@ body .main {
   .single-style img{
     display: block;
     margin-bottom: 40px;
+    width: 100%;
+    height: auto;
   }
   .single-style ul{
     list-style: circle;
@@ -1632,6 +1634,11 @@ body .main {
 
   .l-original{
     padding-left: 10px;
+  }
+  .l-original img{
+    display: block;
+    width: 100%;
+    height: auto;
   }
   .l-original-main__left{
     padding-left: 10px;

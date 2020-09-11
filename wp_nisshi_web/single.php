@@ -21,19 +21,19 @@
         <div class="c-title-main-top__under"><span>YOGONISHI  AGRICULTURAL  COOPERATIVE</span></div>
       </header>
 
-
-  <div class="l-original">
-
-  </div>
-    <div class="l-original-main">
-
-      <div class="l-original-main__left">
-
       <?php
       if( have_posts() ) :
         while ( have_posts() ) : the_post();
       ?>
 
+  <div class="l-original">
+        <?php if( get_field('image') ): ?>
+              <img src="<?php the_field('image'); ?>" style="width: 100%; height: auto; display: block;" />
+          <?php endif; ?>
+  </div>
+    <div class="l-original-main">
+
+      <div class="l-original-main__left">
       <!-- <div id="newsWrap"> -->
       <div id="<?php the_ID(); ?>" <?php post_class('newsTextWrap')?>>
 
