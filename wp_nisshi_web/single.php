@@ -60,26 +60,9 @@
       endif;
       ?>
 
-        <div class="l-template-title u-mgn--t64px">
-          <h3>関連記事</h3>
-        </div>
-        <div class="l-template-title">
-          <div class="l-article-column3"><a class="l-article-column3__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-              <h4 class="l-article-column3__list__title u-mgn--t8px">世界の料理ミニ博覧会</h4>
-              <div class="l-article-column3__list__tag u-mgn--t8px greern">
-                <p>2020.4.13</p><span>トピックス</span>
-              </div></a><a class="l-article-column3__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-              <h4 class="l-article-column3__list__title u-mgn--t8px">世界の料理ミニ博覧会</h4>
-              <div class="l-article-column3__list__tag u-mgn--t8px greern">
-                <p>2020.4.13</p><span>トピックス</span>
-              </div></a><a class="l-article-column3__list" href="original.html"><img src="http://placehold.jp/300x210.png" alt="">
-              <h4 class="l-article-column3__list__title u-mgn--t8px">世界の料理ミニ博覧会</h4>
-              <div class="l-article-column3__list__tag u-mgn--t8px greern">
-                <p>2020.4.13</p><span>トピックス</span>
-              </div></a>
-          </div>
-        </div>
-      </div>
+            
+            
+            </div>
       
       <div class="l-original-main__rigth">
           <?php dynamic_sidebar( 'sidebar' ); ?>

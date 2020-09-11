@@ -609,7 +609,8 @@ margin-top: 160px;
     margin-left: 50px;
    }
     .l-article-column2__list img {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
     .l-article-column2__list p {
       display: -webkit-box;
       -webkit-box-orient: vertical;
@@ -794,6 +795,7 @@ margin-top: 160px;
   display: flex;
   margin-top: 32px;
   max-width: 1080px;
+  min-width: 1080px;
   margin: 0 auto; }
   .l-original-main__left {
     padding: 0 10px 0 0;
@@ -1230,6 +1232,7 @@ textarea::placeholder {
     height: 30px;
     line-height: 30px;
     font-weight: bold;
+    text-align: center;
   }
 
 /**
@@ -1561,6 +1564,9 @@ body .main {
 /* tablet
 =========================================================*/
 @media screen and (min-width:481px) and (max-width:768px){
+  body{
+    min-width: 750px;
+  }
 	.header{
     min-width: inherit;
 		min-width: 675px;
@@ -1596,6 +1602,7 @@ body .main {
   .l-article{
     max-width: inherit;
     min-width: inherit;
+    justify-content: space-around;
   }
   .l-article__list{
     width: 50%;
@@ -1628,10 +1635,12 @@ body .main {
   }
   .l-original-main__left{
     padding-left: 10px;
+    width: 100%;
+    margin-bottom: 50px;
   }
   .l-original-main__rigth{
-    margin-right: 10px;
-    width: 30%;
+    width: 40%;
+    margin-left: 50px;
   }
   .c-title-menu img{
     width: 100%;
@@ -1649,10 +1658,14 @@ body .main {
   .l-title-top{
     min-width: inherit
   }
-
-
+  .l-original-main{
+    display: block;
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit;
+  }
   .l-article-column2__list{
-    width: 48%;
+    /* width: 48%; */
   }
   .c-pager{
     width: 70%;
@@ -1774,6 +1787,9 @@ body .main {
   }
   .l-original-main{
     display: block;
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit;
   }
   .l-article-column2{
     display: block;
@@ -1810,9 +1826,11 @@ body .main {
 
 
   .l-article-column2__list{
-    display: inline-block;
     width: 100%;
+    display: inline-block;
     margin-bottom: 30px;
+    max-width: inherit;
+    margin-left: 0;
   }
   .c-pager{
     width: 100%;

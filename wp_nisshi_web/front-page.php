@@ -76,10 +76,11 @@
       <h3 class="title">人気の記事</h3>
       <p class="content">人気の記事はこちらからご覧ください。</p>
     </div>
-    <!-- 人気の記事ループ構文-->
+    <!-- 人気の記事ループ構文 loop-popularより読み込む想定-->
     <div class="l-article">
-        <?php get_template_part('loop', 'popular'); ?>
+        <?php get_template_part('loop', 'top'); ?>
     </div>
+
     <!-- 終了-->
 
 
