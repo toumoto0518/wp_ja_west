@@ -184,4 +184,20 @@ function getPostViews($postID){
   remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 
+
+
+
+  ////////////////////どのページのアーカイブか判断する
+  function my_archive_title($title) {
+    if ( is_category() ) {
+        $title = single_cat_title( '', false ); 
+      } elseif ( is_tag() ) { 
+          $title = single_tag_title( '', false ); 
+      } 
+      $title = $title. ''; 
+      return $title; 
+  }; 
+  add_filter( 'get_the_archive_title', 'my_archive_title');
+
+
 ?>
