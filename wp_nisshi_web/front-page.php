@@ -24,9 +24,9 @@
 
       <div class="c-title-main__under">
         <ul class="slick01">
-          <li><img class="c-img-slick" src="<?php echo get_template_directory_uri(); ?>/img/main_header.png" alt=""></li>
-          <li><img class="c-img-slick" src="<?php echo get_template_directory_uri(); ?>/img/main_header.png" alt=""></li>
-          <li><img class="c-img-slick" src="<?php echo get_template_directory_uri(); ?>/img/main_header.png" alt=""></li>
+          <li><a href="http://ideekobe.xsrv.jp/ja-h-west-magazine/2020/09/11/feature02/"><img class="c-img-slick" src="<?php echo get_template_directory_uri(); ?>/img/main_header.png" alt=""></a></li>
+          <li><a href="http://ideekobe.xsrv.jp/ja-h-west-magazine/2020/09/11/feature02/"><img class="c-img-slick" src="<?php echo get_template_directory_uri(); ?>/img/main_header02.png" alt=""></a></li>
+          <li><a href="http://ideekobe.xsrv.jp/ja-h-west-magazine/2020/09/11/feature02/"><img class="c-img-slick" src="<?php echo get_template_directory_uri(); ?>/img/main_header03.png" alt=""></a></li>
         </ul><img class="w100" src="<?php echo get_template_directory_uri(); ?>/img/main_header_under.png" alt="">
       </div>
     </div>
@@ -71,7 +71,7 @@
         
     </div>
 
-    <div class="l-top-img u-mgn--t64px" stlye="display:flex;justfy"><img class="w80 aguri-bito" src="<?php echo get_template_directory_uri(); ?>/img/men.png"></div>
+    <div class="l-top-img u-mgn--t64px" stlye="display:flex;justfy"><a href="http://ideekobe.xsrv.jp/ja-h-west-magazine/2020/09/12/aguri01/"><img class="aguri-bito" src="<?php echo get_template_directory_uri(); ?>/img/men.png"></a></div>
     <div class="l-title-top u-mgn--t64px">
       <h3 class="title">人気の記事</h3>
       <p class="content">人気の記事はこちらからご覧ください。</p>

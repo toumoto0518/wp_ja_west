@@ -126,6 +126,7 @@ a:visited{
   text-decoration: #7d7d7d;
   font-weight: normal;
   transition: 0.3s;
+  display: block;
 }
 a:hover{
   text-decoration: none;
@@ -433,7 +434,7 @@ html {
   /* 10px */ }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   /* 14px */
   line-height: 1.5;
   font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;  font-feature-settings: "palt";
@@ -779,6 +780,7 @@ margin-top: 160px;
   max-width: 1080px;
   min-width: 1080px; }
 .aguri-bito{
+  width: 100%;
   max-width: 1080px;
 }
 .l-top-img {
@@ -1540,6 +1542,10 @@ body .main {
     border-bottom: 1px solid #EAEAEA;
     margin-bottom: 16px;
   }
+  .single-style p{
+    line-height: 30px;
+    letter-spacing: 2px;
+  }
   .single-style img{
     display: block;
     margin-bottom: 40px;
@@ -1803,7 +1809,6 @@ body .main {
   }
 
   .l-original{
-    padding-left: 10px;
   }
   .l-original-main__left{
     padding: 0 20px;
