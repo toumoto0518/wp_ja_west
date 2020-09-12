@@ -974,7 +974,9 @@ textarea::placeholder {
     padding: 5px;
     font-size: 10px;
     color: #CBCBCB;
-    margin-left: 5px; }
+    margin-left: 5px;
+    display: inline-block;
+  }
 
 .c-tag-black {
   font-size: 14px;
