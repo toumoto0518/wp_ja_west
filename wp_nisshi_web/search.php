@@ -21,11 +21,9 @@
       </header>
 
       <!-- localNav -->
-      <div class="pageTitleWrap">
-        <div class="pageTitle newsTitle">
-          <h2>検索結果</h2>
-        </div>
-      </div>
+		<div class="l-title-top l-title-archive u-mgn--t64px">
+			<h3 class="title">検索結果</h3>
+		</div>
 	  <!-- news -->
 	  <div class="l-original-main">
 		<div class="l-original-main__left">
@@ -38,7 +36,9 @@
 				?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class('l-article-column2__list')?>>
 						<a class="" href="<?php the_permalink(); ?>">
-							<?php the_post_thumbnail('thumbnail'); ?>
+							<div class="imgWrap">
+								<?php the_post_thumbnail('thumbnail'); ?>
+							</div>
 							<h4 class="l-article-column2__list__title u-mgn--t8px">
 								<?php
 									if(mb_strlen($post->post_title, 'UTF-8')>25){
