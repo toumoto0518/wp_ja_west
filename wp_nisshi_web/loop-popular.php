@@ -7,7 +7,9 @@
 
             <article class="l-article__list">
                 <a href="<?php the_permalink(); ?>">
-                    <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'post-thumbnail'); } ?>
+                <div class="imgWrap">
+                    <?php the_post_thumbnail('thumbnail'); ?>
+                </div>
                     <h4 class="l-article-column2__list__title u-mgn--t8px">
                         <?php
                             if(mb_strlen($post->post_title, 'UTF-8')>25){

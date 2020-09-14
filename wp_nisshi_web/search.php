@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div>
+
       <!-- seoのため非表示-->
       <h1>JA兵庫西</h1>
       <header>
@@ -26,47 +26,53 @@
           <h2>検索結果</h2>
         </div>
       </div>
-      <!-- news -->
-      <div id="newsWrap">
-        <p class="newsText">サイト内検索フォームから検索された検索結果を表示いたします。</p>
-        <div class="newsCon">
-
-					<!-- ループ部分 -->
-					<?php
-					if( have_posts() ) :
-					  while ( have_posts() ) : the_post();
-					?>
-					<article id="post-<?php the_ID(); ?>" <?php post_class('news')?>>
-					  <?php the_category(); ?>
-					    <a href="<?php the_permalink(); ?>">
-					      <div class="flexBox newsTitle newsKiji">
-					        <div class="title-border">
-					          <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m日d日'); ?></time>
-					        </div>
-					        <p><?php the_title(); ?></p>
-					        <div class="smallKiji">
-					          <?php the_excerpt(); ?>
-					        </div>
-					      </div>
-					    </a>
+	  <!-- news -->
+	  <div class="l-original-main">
+		<div class="l-original-main__left">
+			<p class="newsText">サイト内検索フォームから検索された検索結果を表示いたします。</p>
+			<div class="l-article-column2">
+				<!-- ループ部分 -->
+				<?php
+				if( have_posts() ) :
+					while ( have_posts() ) : the_post();
+				?>
+					<article id="post-<?php the_ID(); ?>" <?php post_class('l-article-column2__list')?>>
+						<a class="" href="<?php the_permalink(); ?>">
+							<?php the_post_thumbnail('thumbnail'); ?>
+							<h4 class="l-article-column2__list__title u-mgn--t8px">
+								<?php
+									if(mb_strlen($post->post_title, 'UTF-8')>25){
+									$title= mb_substr($post->post_title, 0, 25, 'UTF-8');
+									echo $title.'…';
+									}else{
+									echo $post->post_title;
+									}
+								?>
+							</h4>
+							<div class="l-article__list__tag red u-mgn--t8px">
+							<time datetime="<?php the_time('Y-m-d'); ?>" class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_time('Y.m.d'); ?></time>
+							<div class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>"><?php the_category(); ?></div>
+							</div>
+							<p class="u-mgn--t8px"><?php the_excerpt(); ?></p>
+						</a>
 					</article>
-
-					<?php
-					  endwhile;
-					else :
-					?>
-
-					<!--検索結果がなっかた時の表示-->
-					<?php if(is_search()) : ?>
+				<?php
+					endwhile;
+				else :
+				?>
+				<!--検索結果がなっかた時の表示-->
+				<?php if(is_search()) : ?>
 					<p>検索結果はありませんでした。</p>
 				<?php else : ?>
 					<p>記事はありません。</p>
 					<?php endif; ?>
 				<?php endif; ?>
-
-					<!--ページナビ-->
-					<?php if(function_exists('wp_pagenavi')){wp_pagenavi(); }?>
-
-        </div>
-      </div><!-- newsWrap -->
+			</div>
+			<!--ページナビ-->
+			<?php if(function_exists('wp_pagenavi')){wp_pagenavi(); }?>
+		</div><!-- l-original-main__left -->
+		<div class="l-original-main__rigth">
+          <?php dynamic_sidebar( 'sidebar' ); ?>
+      </div>
+	</div>
 <?php get_footer(); ?>

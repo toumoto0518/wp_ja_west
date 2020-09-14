@@ -4,7 +4,9 @@ while ( have_posts() ) : the_post();
 ?>
     <article id="post-<?php the_ID(); ?>" <?php post_class('l-article__list')?>>
         <a class="" href="<?php the_permalink(); ?>">
+        <div class="imgWrap">
             <?php the_post_thumbnail('thumbnail'); ?>
+        </div>
             <h4 class="l-article-column2__list__title u-mgn--t8px">
                 <?php
                     if(mb_strlen($post->post_title, 'UTF-8')>25){

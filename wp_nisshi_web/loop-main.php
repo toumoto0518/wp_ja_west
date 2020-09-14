@@ -5,7 +5,9 @@ if( have_posts() ) :
 
   <article id="post-<?php the_ID(); ?>" <?php post_class('l-article-column2__list')?>>
     <a class="l-article-column2__list_a" href="<?php the_permalink(); ?>">
-      <?php the_post_thumbnail('thumbnail'); ?>
+      <div class="imgWrap">
+        <?php the_post_thumbnail('thumbnail'); ?>
+      </div>
       <h4 class="l-article-column2__list__title u-mgn--t8px">
       <?php
         if(mb_strlen($post->post_title, 'UTF-8')>25){

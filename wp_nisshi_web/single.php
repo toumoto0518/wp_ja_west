@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div>
       <!-- seoのため非表示-->
       <h1>JA兵庫西</h1>
       <header>
