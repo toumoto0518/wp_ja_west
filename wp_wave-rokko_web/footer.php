@@ -20,7 +20,7 @@
           </ul>
         </div>
         <div class="copyright">
-          <p>Copyright © Hyogo Nishi Agricultural Cooperative. All Rights Reserved.</p>
+          <p>© 2019 HYOGOROKKO</p>
         </div>
       </div>
     </footer>
