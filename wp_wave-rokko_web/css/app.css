@@ -505,7 +505,7 @@ margin-top: 160px;
 
     .imgWrap {
       overflow: hidden;	/*拡大時にはみ出た部分を隠す*/
-      width: 300px;	/*画像の幅*/
+      /* width: 300px;	画像の幅 */
       height: 210px;	/*画像の高さ*/
     }
     .l-article__list img {
@@ -1150,7 +1150,7 @@ textarea::placeholder {
     border-radius: 4px; 
     }
 
-.widget ul .cat-item-2 a::before {
+.widget ul .cat-item-28 a::before {
   content: '';
   display: inline-block;
   border: 1px solid #009650;
@@ -1160,7 +1160,7 @@ textarea::placeholder {
   margin-right: 8px;
   border-radius: 4px; }
 
-  .widget ul .cat-item-3 a::before {
+  .widget ul .cat-item-25 a::before {
     content: '';
     display: inline-block;
     border: 1px solid #0071BC;
@@ -1170,7 +1170,7 @@ textarea::placeholder {
   margin-right: 8px;
   border-radius: 4px; }
 
-  .widget ul .cat-item-4 a::before {
+  .widget ul .cat-item-24 a::before {
     content: '';
     display: inline-block;
     border: 1px solid #A379CA;
@@ -1180,7 +1180,7 @@ textarea::placeholder {
   margin-right: 8px;
   border-radius: 4px; }
 
-  .widget ul .cat-item-5 a::before {
+  .widget ul .cat-item-26 a::before {
     content: '';
     display: inline-block;
     border: 1px solid #FF8C91;
@@ -1190,7 +1190,7 @@ textarea::placeholder {
   margin-right: 8px;
   border-radius: 4px; }
 
-  .widget ul .cat-item-6 a::before {
+  .widget ul .cat-item-27 a::before {
     content: '';
     display: inline-block;
     border: 1px solid #FFA032;
@@ -1200,7 +1200,7 @@ textarea::placeholder {
   margin-right: 8px;
   border-radius: 4px; }
 
-  .widget ul .cat-item-7 a::before {
+  .widget ul .cat-item-23 a::before {
     content: '';
     display: inline-block;
     border: 1px solid #94CE2D;
@@ -1210,7 +1210,7 @@ textarea::placeholder {
   margin-right: 8px;
   border-radius: 4px; }
 
-  .widget ul .cat-item-8 a::before {
+  .widget ul .cat-item-29 a::before {
     content: '';
     display: inline-block;
     border: 1px solid #00BEE6;
@@ -1619,6 +1619,11 @@ body .main {
   .single-style ul li, .single-style ol li{
     margin-bottom: 10px;
   }
+  .logo-footer img{
+    width: 300px;
+    padding: 0 30px;
+  }
+
   
 
 
@@ -1645,6 +1650,8 @@ body .main {
   }
   .c-title-main{
     font-size: 26px;
+    padding: 30px 0 8px 0px;
+    width: 90%;
   }
   .l-header .menu{
     justify-content: space-around;
@@ -1755,6 +1762,9 @@ body .main {
   .search_container, .l-header-icon{
     display: inline-block;
   }
+  .l-header-icon a{
+    display: inherit;
+  }
   .l-header-icon img{
     width: 168px;
   }
@@ -1828,6 +1838,8 @@ body .main {
     background-repeat: inherit;
     margin: inherit;
     width: 100%;
+    height: auto;
+    padding-bottom: 30px;
   }
   .l-title-top .content{
     min-width: inherit;
@@ -1942,7 +1954,7 @@ body .main {
     margin-left: inherit;
   }
   .logo-footer img{
-    width: 100%;
+    width: 200px;
     padding: 0 30px;
   }
 }

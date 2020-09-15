@@ -12,7 +12,7 @@
           </ul>
           <div class="logo-footer"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
           <ul class="menu under">
-            <li>〒670-0940 姫路市三左衛門堀西の町216</li>
+            <li>〒651-1313  神戸市北区有野中町2-12-13</li>
             <li>|</li>
             <li>TEL: 079-281-5021</li>
             <li>|</li>
