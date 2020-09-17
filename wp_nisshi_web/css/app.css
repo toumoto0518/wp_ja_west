@@ -483,8 +483,11 @@ margin-top: 160px;
   .l-header .menu {
     width: 100％;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
+  .l-header__menu__li{
+    margin-left: 238px;
+  }
 
 .l-article {
   width: 80%;
@@ -502,7 +505,7 @@ margin-top: 160px;
 
     .imgWrap {
       overflow: hidden;	/*拡大時にはみ出た部分を隠す*/
-      width: 300px;	/*画像の幅*/
+      /* width: 300px;	画像の幅 */
       height: 210px;	/*画像の高さ*/
     }
     .l-article__list img {
@@ -887,13 +890,21 @@ margin-top: 160px;
   .l-profile__right {
     width: 40%;
     padding-left: 20px; }
-
+  header{
+    margin-bottom: 30px;
+  }
 .l-header-icon {
   display: flex;
   justify-content: flex-end;
   padding-top: 8px; }
   .l-header-icon__start {
     padding-right: 16px; }
+  .l-header-icon img{
+    width: 146px;
+  padding-top: 1px;
+  margin-right: 25px;
+  }
+    
 
 /* placeholder default */
 input::placeholder,
@@ -1016,10 +1027,14 @@ textarea::placeholder {
   margin-bottom: 4px; }
 
 .c-title-main {
-  padding: 8px 0 8px 40px;
-  font-weight: 900;
-  font-size: 33px;
-  letter-spacing: 20px; }
+  padding: 20px 0 8px 40px;
+  width: 525px;
+  display: inline-block;
+}
+.c-title-main img{
+  width: 100%;
+}
+ 
   .c-title-main__under {
     text-align: center; }
 
@@ -1204,6 +1219,9 @@ textarea::placeholder {
     height: 10px;
     margin-right: 8px;
     border-radius: 4px;
+   }
+   .widget ul a::before{
+    margin-bottom: -3px;
    }
    .widget ul a::before{
     margin-bottom: -3px;
@@ -1604,6 +1622,11 @@ body .main {
   .single-style ul li, .single-style ol li{
     margin-bottom: 10px;
   }
+  .logo-footer img{
+    width: 300px;
+    padding: 0 30px;
+  }
+
   
 
 
@@ -1630,6 +1653,8 @@ body .main {
   }
   .c-title-main{
     font-size: 26px;
+    padding: 30px 0 8px 0px;
+    width: 90%;
   }
   .l-header .menu{
     justify-content: space-around;
@@ -1740,6 +1765,13 @@ body .main {
   .search_container, .l-header-icon{
     display: inline-block;
   }
+  .l-header-icon a{
+    display: inherit;
+  }
+  .l-header-icon img{
+    width: 150px;
+    margin-right: 5px;
+  }
   .l-header-icon{
     padding-top: 0;
   }
@@ -1760,6 +1792,12 @@ body .main {
   }
   .c-title-main{
     font-size: 26px;
+    width: 100%;
+    padding: inherit;
+    padding: 20px;
+  }
+  .l-header__menu__li{
+    margin-left: inherit;
   }
   .l-header .menu{
     display: block;
@@ -1804,6 +1842,8 @@ body .main {
     background-repeat: inherit;
     margin: inherit;
     width: 100%;
+    height: auto;
+    padding-bottom: 30px;
   }
   .l-title-top .content{
     min-width: inherit;
@@ -1917,5 +1957,8 @@ body .main {
   .newsText{
     margin-left: inherit;
   }
-
+  .logo-footer img{
+    width: 200px;
+    padding: 0 30px;
+  }
 }
